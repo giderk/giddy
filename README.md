@@ -17,9 +17,7 @@ Some of the projects that follow have been completed and published, some are a w
 
 * 18S rRNA metagenomics of primate fecal samples
 
-* Bone marrow derived macrophage (BMDM) transcriptomics
-
-* CD4+ T cell transcriptomics
+* Macrophage transcriptomics
 
 
 ## Questions or Comments
