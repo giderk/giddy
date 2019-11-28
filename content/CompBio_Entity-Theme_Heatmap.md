@@ -1,3 +1,4 @@
+```rscript
 # Script Name: CompBio_Entity-Theme_heatmap
 
 ## OVERVIEW ##
@@ -53,3 +54,4 @@ Heatmap(mat[,c(1:140)],row_order = NULL,column_dend_height = unit(30, "mm"),na_c
         heatmap_legend_param = list(title = "Score"),column_title = "ITIzone_compBIO.themes_up-regulated.receptors",
         col=colorRamp2(c(0, 1, 100,1000,2000), c("black", "purple", "white","orange",'red')))
 
+```
