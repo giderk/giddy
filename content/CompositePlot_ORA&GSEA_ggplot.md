@@ -1,3 +1,4 @@
+```rscript
 # Script Name: CompositePlot_ORA&GSEA_ggplot
 
 ## Overview ##
@@ -193,5 +194,6 @@ ggarrange(g1,p2,nrow=2,ncol=1,heights = c(2,1.5),labels = list(" ","A"))
 # save composite plot to .svg (fine tune graphic in illustrator)
 ggsave("figure2.svg",width=8,height = 10)
 
+```
 
 
