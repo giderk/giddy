@@ -1,3 +1,6 @@
+|Sample View|
+|---|
+|![Example TopGenes](https://gideonerkenswick.files.wordpress.com/2019/12/example_phantasus_topgenes.jpg)|
 ```rscript
 # Script Name: TopGenes
 

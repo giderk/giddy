@@ -1,3 +1,6 @@
+|standard output|modified view|
+|---|---|
+|![Example](https://gideonerkenswick.files.wordpress.com/2019/12/compbio_standard_view_example.jpg)|![EXAMPLE](https://gideonerkenswick.files.wordpress.com/2019/12/compbio_heatmap_example.jpg?w=900)|
 ```rscript
 # Script Name: CompBio_Entity-Theme_heatmap
 

@@ -1,3 +1,6 @@
+|Example|
+|---|
+|![Example](https://gideonerkenswick.files.wordpress.com/2019/12/ora-gseaplot_example-1.jpg)|
 ```rscript
 # Script Name: CompositePlot_ORA&GSEA_ggplot
 
