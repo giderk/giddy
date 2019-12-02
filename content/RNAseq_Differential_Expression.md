@@ -1,4 +1,4 @@
-|Visualization|Sample Figure|
+|Description|Sample Figure|
 |---|---|
 |PCA|![example](https://gideonerkenswick.files.wordpress.com/2019/12/pca_sample.jpg)|
 |Heatmap|![example](https://gideonerkenswick.files.wordpress.com/2019/12/heatmap_sample.jpg)|
