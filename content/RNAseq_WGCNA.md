@@ -1,3 +1,6 @@
+|Hub Genes Example|
+|---|
+|![example](https://gideonerkenswick.files.wordpress.com/2019/12/cytoscapehubgenes_example.jpg)|
 ```rscript
 # Script Name: RNAseq WGCNA
 
