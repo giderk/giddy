@@ -8,10 +8,10 @@ This a repository for code I've used over the years to analyze a variety of data
 Some of the projects that follow have been completed and published, some are a work in progress, and others are just beginning. As I have time to update these pages, content sections will be converted to links with annotated code and sample outputs, where possible.
 
 * Bioinformatics
-  * [CompBio Entiry-Theme Heatmap](https://github.com/giderk/giddy/blob/master/content/CompBio_Entity-Theme_Heatmap.md)
-  * [Over-Representation & Gene-Set Enrichment Plotting](https://github.com/giderk/giddy/blob/master/content/CompositePlot_ORA%26GSEA_ggplot.md)
+  * [CompBio Entity-Theme Heatmap](https://github.com/giderk/giddy/blob/master/content/CompBio_Entity-Theme_Heatmap.md)
+  * [Over-Representation & Gene-Set Enrichment Plot](https://github.com/giderk/giddy/blob/master/content/CompositePlot_ORA%26GSEA_ggplot.md)
   * [RNAseq Top Genes](https://github.com/giderk/giddy/blob/master/content/RNAseq_TopGenes.md)
-  * [RNAseq Weighted gene co-expression analysis (WGCNA)](https://github.com/giderk/giddy/blob/master/content/RNAseq_WGCNA.md)
+  * [RNAseq Weighted Gene Co-expression Analysis (WGCNA)](https://github.com/giderk/giddy/blob/master/content/RNAseq_WGCNA.md)
 
 * Callitrichid cooperative breeding success: a meta-analysis
 
