@@ -1,3 +1,6 @@
+|Sample Figure|
+|---|
+|![example](https://gideonerkenswick.files.wordpress.com/2019/12/term-gene_edges_example.jpg)|
 ```rscript
 # Script Name: DE-Gene Ontology Interactions
 
