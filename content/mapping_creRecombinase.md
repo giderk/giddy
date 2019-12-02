@@ -49,10 +49,11 @@ bjobs | cut -b -7 | xargs echo -n # print current jobs
 # converting .bam back to fastq format
   
 find . -type f -name '*.unmapped.bam' | xargs -I % bsub -q research-hpc -M 61000000 -R 'rusage[mem=63000]' -n 8 -a 'docker(EDIT)' -o %.fastq 'samtools fastq %'
+```
 
-# NOTE: for some reason bsub does not handle this command like others. For example -oo option for a bsub.log output does not produce the stder file. If you make the option -o then it will produce the actual .fastq.  The command 'samtools fastq' itself has no standard output option such as -o, instead they say to us the '>' to write to a file, and there are lots of options for splitting up or merging .bam files. So the above command works fine, but no log files are produced. LATER learned, the stder information is included at the beginning, end, and a little bit within the body of the fastq file. This information needs to be removed for downstream processing of the fastq file.
+> NOTE: for some reason bsub does not handle this command like others. For example -oo option for a bsub.log output does not produce the stder file. If you make the option -o then it will produce the actual .fastq.  The command 'samtools fastq' itself has no standard output option such as -o, instead they say to us the '>' to write to a file, and there are lots of options for splitting up or merging .bam files. So the above command works fine, but no log files are produced. LATER learned, the stder information is included at the beginning, end, and a little bit within the body of the fastq file. This information needs to be removed for downstream processing of the fastq file.
 
-
+```bashscript
 # sending just the .fastq files to local environment
   
 rsync -zt --progress remote/server/location/*.fastq' /local/location/fastq/
