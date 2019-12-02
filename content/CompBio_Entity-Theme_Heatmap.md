@@ -4,7 +4,7 @@
 ## OVERVIEW ##
 
 #1) Reconfigure compBio data export into functional data frame object
-#2) Plots a theme by gene heatmap for selected genes
+#2) Plot a theme by gene heatmap for selected genes
 
 ## NOTE ##
 # CompBio is a gene/protein set analysis tool developed by GTAC of WashU

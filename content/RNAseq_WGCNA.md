@@ -1,3 +1,4 @@
+```rscript
 # Script Name: RNAseq WGCNA
 
 ## Overview ##
@@ -358,7 +359,7 @@ edges<-edges
 chooseOneHubInEachModule(readydata,net$colors)
 temp.adj<-adjacency(readydata,selectCols = probes,power=9)
 
-
+```
 
 
 
