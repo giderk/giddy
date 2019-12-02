@@ -1,3 +1,4 @@
+![EXAMPLE](https://wustl.box.com/s/4rwkb43kexad4l5gaqjz4o4i9dpxcg9v)
 ```rscript
 # Script Name: CompBio_Entity-Theme_heatmap
 
