@@ -1,4 +1,4 @@
-|Hub Genes Example|
+|Co-Expressed Hub Genes Sample Figure|
 |---|
 |![example](https://gideonerkenswick.files.wordpress.com/2019/12/cytoscapehubgenes_example.jpg)|
 ```rscript
