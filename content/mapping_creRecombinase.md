@@ -7,12 +7,12 @@ To validate that the Cpt2KO genotype is indeed set-up correctly we can look at r
 
 ## ANTICIPATED WORKFLOW:
 
-Extract unmapped reads from .bam and/or .sam files (samtools view) >>
-Convert .bam/.sam to fasta or fastq, or whatever file type that BLASTn accepts >>
-Download and install BLAST+ and magicBLAST software >>
-Download cre recombinase fasta file >>
-Create BLAST dB from cre fasta file with NCBI tool makeblastDb >>
-map reads to cre gene per sample with magicBLAST tool (which accepts fastq or fasta)
+1. Extract unmapped reads from .bam and/or .sam files (samtools view) >>
+1. Convert .bam/.sam to fasta or fastq, or whatever file type that BLASTn accepts >>
+1. Download and install BLAST+ and magicBLAST software >>
+1. Download cre recombinase fasta file >>
+1. Create BLAST dB from cre fasta file with NCBI tool makeblastDb >>
+1. map reads to cre gene per sample with magicBLAST tool (which accepts fastq or fasta)
 
 ## RESOURCES:
 * samtools
