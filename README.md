@@ -12,6 +12,8 @@ Some of the projects that follow have been completed and published, some are a w
   * [Over-Representation & Gene-Set Enrichment Plot](https://github.com/giderk/giddy/blob/master/content/CompositePlot_ORA%26GSEA_ggplot.md)
   * [RNAseq Top Genes](https://github.com/giderk/giddy/blob/master/content/RNAseq_TopGenes.md)
   * [RNAseq Weighted Gene Co-expression Analysis (WGCNA)](https://github.com/giderk/giddy/blob/master/content/RNAseq_WGCNA.md)
+  *[RNAseq Data Inspection and Differential Expression Analysis](https://github.com/giderk/giddy/blob/master/content/RNAseq_Differential_Expression.md)
+  *[Functions & Gene Interaction Web](https://github.com/giderk/giddy/blob/master/content/GOterm.DEgene_interactions.md)
 
 * Callitrichid cooperative breeding success: a meta-analysis
 
@@ -23,7 +25,6 @@ Some of the projects that follow have been completed and published, some are a w
 
 * 18S rRNA metagenomics of primate fecal samples
 
-* Macrophage transcriptomics
 
 
 ## Questions or Comments
