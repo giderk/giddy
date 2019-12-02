@@ -15,7 +15,7 @@ Create BLAST dB from cre fasta file with NCBI tool makeblastDb >>
 map reads to cre gene per sample with magicBLAST tool (which accepts fastq or fasta)
 
 ## RESOURCES:
-* samtools - /gscmnt/gc2732/mitrevalab/TOOLS/SOFTWARE/Samtools1.3/SAMTOOLS_1.3/samtools-1.3/samtools
+* samtools
 
 		See these pages for help configuring the command:
 		http://www.htslib.org/doc/samtools.html # commands and parameters
@@ -41,14 +41,14 @@ map reads to cre gene per sample with magicBLAST tool (which accepts fastq or fa
 
 # extracting unmapped RNAseq reads (on server)
   
-find . -type f -name *.sorted.bam | xargs -I % bsub -q research-hpc -M 61000000 -R 'rusage[mem=63000]' -n 8 -a 'docker(jmartin7/ubuntu:mitrevalab_env2)' -oo %.unmapped.bsub.log '/gscmnt/gc2732/mitrevalab/TOOLS/SOFTWARE/Samtools1.3/SAMTOOLS_1.3/samtools-1.3/samtools view -b -f 4 -o %.unmapped.bam %'
+find . -type f -name *.sorted.bam | xargs -I % bsub -q research-hpc -M 61000000 -R 'rusage[mem=63000]' -n 8 -a 'docker(EDIT)' -oo %.unmapped.bsub.log 'samtools view -b -f 4 -o %.unmapped.bam %'
 
 bjobs | cut -b -7 | xargs echo -n # print current jobs
 
 
 # converting .bam back to fastq format
   
-find . -type f -name '*.unmapped.bam' | xargs -I % bsub -q research-hpc -M 61000000 -R 'rusage[mem=63000]' -n 8 -a 'docker(jmartin7/ubuntu:mitrevalab_env2)' -o %.fastq '/gscmnt/gc2732/mitrevalab/TOOLS/SOFTWARE/Samtools1.3/SAMTOOLS_1.3/samtools-1.3/samtools fastq %'
+find . -type f -name '*.unmapped.bam' | xargs -I % bsub -q research-hpc -M 61000000 -R 'rusage[mem=63000]' -n 8 -a 'docker(EDIT)' -o %.fastq 'samtools fastq %'
 
 # NOTE: for some reason bsub does not handle this command like others. For example -oo option for a bsub.log output does not produce the stder file. If you make the option -o then it will produce the actual .fastq.  The command 'samtools fastq' itself has no standard output option such as -o, instead they say to us the '>' to write to a file, and there are lots of options for splitting up or merging .bam files. So the above command works fine, but no log files are produced. LATER learned, the stder information is included at the beginning, end, and a little bit within the body of the fastq file. This information needs to be removed for downstream processing of the fastq file.
 
