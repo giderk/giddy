@@ -1,4 +1,4 @@
-![EXAMPLE](https://www.dropbox.com/h?preview=compBio_heatmap_example.jpg)
+![EXAMPLE](https://www.dropbox.com/s/v3w9nq6nbm31san/compBio_heatmap_example.jpg?dl=0)
 ```rscript
 # Script Name: CompBio_Entity-Theme_heatmap
 
