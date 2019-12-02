@@ -64,8 +64,8 @@ magicblast -query reads.fastq -db my_reference -infmt fastq -outfmt tabular -no_
 ```
 
  ### NOTE: The resulting fastq is almost ready for magicblast but needs to be cleaned in three ways
-* 1) remove all header lines associated with the bsub run
-* 2) somewhere near the end of the file, in a different place each time, an insertion of [M::bam2fq_mainloop] processed XXX reads] occurs. This insertion breaks up the fastq formating and causes a parsing error. Remove just this insertion and the read will run perfectly fine
+* remove all header lines associated with the bsub run
+* somewhere near the end of the file, in a different place each time, an insertion of [M::bam2fq_mainloop] processed XXX reads] occurs. This insertion breaks up the fastq formating and causes a parsing error. Remove just this insertion and the read will run perfectly fine
 		
 #### EXAMPLE OF INSERTION:
 		
