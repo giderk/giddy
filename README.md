@@ -1,7 +1,7 @@
 # giddy
 ####Created: 10/15/2019  ####Last Updated:
 
-|![image1](https://gideonerkenswick.files.wordpress.com/2019/12/heatmap_sample.jpg | wdith=100)|![image2](https://gideonerkenswick.files.wordpress.com/2019/12/compbio_standard_view_example.jpg)|![image3](https://gideonerkenswick.files.wordpress.com/2019/12/compbio_heatmap_example.jpg)|![image4](https://gideonerkenswick.files.wordpress.com/2019/12/term-gene_edges_example.jpg)|
+|![image1](https://gideonerkenswick.files.wordpress.com/2019/12/heatmap_sample.jpg =100x)|![image2](https://gideonerkenswick.files.wordpress.com/2019/12/compbio_standard_view_example.jpg)|![image3](https://gideonerkenswick.files.wordpress.com/2019/12/compbio_heatmap_example.jpg)|![image4](https://gideonerkenswick.files.wordpress.com/2019/12/term-gene_edges_example.jpg)|
 
 This a repository for code I've used over the years to analyze a variety of datasets. R is my 'go to' language for data inspection, manipulation and analysis, but my workflows frequently integrate open-source software that is written in other languages. The majority of my work to date has been for research purposes, searching for ecological or immunological patterns, or metagenomics analyses. My datasets have varied widely from project to project, and I have remained more focused on the result than creating a fully automated workflow. My data processing pipelines consist of discrete blocks of code such as data gathering/import, rearrangment, graphical inspection, clean-up, statistical testing, visualization, and post-hoc testing. When desired, stitching a workflow together into a single command should would be overly difficult.
 
