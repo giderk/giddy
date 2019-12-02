@@ -22,7 +22,7 @@ To validate that the Cpt2KO genotype is indeed set-up correctly we can look at r
 		http://broadinstitute.github.io/picard/explain-flags.html # use FLAGs to subset mapped and unmapped data
 		
 
-* BLAST software - https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
+* BLAST software - https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOCTYPE=Download
 
 * Cre recombinase sequence - https://www.ncbi.nlm.nih.gov/nuccore/NC_005856.1?report=fasta&from=436&to=1467
 
@@ -68,7 +68,7 @@ magicblast -query reads.fastq -db my_reference -infmt fastq -outfmt tabular -no_
 * remove all header lines associated with the bsub run
 * somewhere near the end of the file, in a different place each time, an insertion of [M::bam2fq_mainloop] processed XXX reads] occurs. This insertion breaks up the fastq formating and causes a parsing error. Remove just this insertion and the read will run perfectly fine
 		
-#### EXAMPLE OF INSERTION:
+        EXAMPLE OF INSERTION:
 		
 		DDDCDIIIIHHHIHIIIIHIDHGFHIIIIIIIIIIIHHIIIIIIHIHIIH
 		@SN1063:704:H5FJHBCX2:1:2216:9907:22278
