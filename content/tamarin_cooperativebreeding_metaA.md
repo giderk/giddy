@@ -4,6 +4,10 @@
 |---|
 |![example](https://gideonerkenswick.files.wordpress.com/2019/12/meta.corr_sample.jpg)|
 
+## Overview:
+* Import published data, calculate effect size
+* Meta-analysis with random effects and build forest plots
+
 ```rscript
 
 setwd("~")
