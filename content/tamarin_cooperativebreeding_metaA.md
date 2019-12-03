@@ -6,7 +6,8 @@
 
 ## Overview:
 * Import published data, calculate effect size
-* Meta-analysis with random effects and build forest plots
+* Meta-analysis with random effects, building forest plots
+
 
 ```rscript
 
