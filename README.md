@@ -24,7 +24,9 @@ Some of the projects that follow have been completed and published, some are a w
 	* [Modeling Individual Breeding Status from Reproductive Morphology](https://github.com/giderk/giddy/blob/master/content/DFA_breeding_assignments.md)
 	* [Modeling Group Reproductive Output](https://github.com/giderk/giddy/blob/master/content/TamarinGroupRepro.md)
 
-* Blood parasite population dynamics among wild New World primates
+* Primate Parasites
+	* [Blood parasite population dynamics](https://github.com/giderk/giddy/blob/master/content/BloodParasites.md)
+	* [Fecal Helminth Parasite Dynamics]
 
 * Helminth parasite population dynamics among wild New World primates
 
