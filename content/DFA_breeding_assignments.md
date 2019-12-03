@@ -193,7 +193,7 @@ mi <- lapply(mi, transform, aSP = # code changed to assign 0 for NAs
 mSimp<-unsplit(mi,list(mSimp$Age_class))
 ```
 
-> we now have out working datasets for each sex of each species, and can perform dimension reduction using a PCA. Coordinates values will be used in assigning breed status.
+> we now have out working datasets for each sex of each species, and can perform dimension reduction using PCA. Coordinates values will be used in assigning breed status.
 
 ```rscript
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
