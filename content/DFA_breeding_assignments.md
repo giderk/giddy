@@ -1,6 +1,6 @@
 # Modeling primate breeding status from reproductive morphology
 
-> used with data from wild S. imperator and L. weddelli
+Used with data from wild S. imperator and L. weddelli
 
 ### Overview:
 * Data preparation
