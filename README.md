@@ -20,7 +20,7 @@ Some of the projects that follow have been completed and published, some are a w
   * [Select GO Terms & DE Gene Interaction Web](https://github.com/giderk/giddy/blob/master/content/GOterm.DEgene_interactions.md)
 
 * Callitrichid Reproduction
-	* [Cooperative Breeding Meta-analysis]
+	* [Cooperative Breeding Meta-analysis](https://github.com/giderk/giddy/blob/master/content/tamarin_cooperativebreeding_metaA.md)
 	* [Modeling Individual Breeding Status from Reproductive Morphology](https://github.com/giderk/giddy/blob/master/content/DFA_breeding_assignments.md)
 	* [Modeling Group Reproductive Output]
 
