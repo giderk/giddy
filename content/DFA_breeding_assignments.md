@@ -1,5 +1,7 @@
 # Modeling primate breeding status from reproductive morphology
-
+|Before and After BR Model|
+|---|
+|![example](https://gideonerkenswick.files.wordpress.com/2019/12/brmodel_outcomes_sample.jpg)|
 Used with data from wild S. imperator and L. weddelli
 
 ### Overview:
