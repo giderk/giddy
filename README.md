@@ -28,8 +28,6 @@ Some of the projects that follow have been completed and published, some are a w
 	* [Blood parasite population dynamics](https://github.com/giderk/giddy/blob/master/content/BloodParasites.md)
 	* [Fecal Helminth Parasite Dynamics]
 
-* Helminth parasite population dynamics among wild New World primates
-
 * 18S rRNA metagenomics of primate fecal samples
 
 
