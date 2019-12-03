@@ -11,7 +11,7 @@ Some of the projects that follow have been completed and published, some are a w
 	* [Mapping creRecombinase](https://github.com/giderk/giddy/blob/master/content/mapping_creRecombinase.md)
 	* [Mapping to Ensembl Assembly]
 
-* RNAseq Gene Expression Analysis and Visualiation
+* RNAseq Gene Expression Analysis and Visualization
   * [CompBio Entity-Theme Heatmap](https://github.com/giderk/giddy/blob/master/content/CompBio_Entity-Theme_Heatmap.md)
   * [Over-Representation & Gene-Set Enrichment Plot](https://github.com/giderk/giddy/blob/master/content/CompositePlot_ORA%26GSEA_ggplot.md)
   * [RNAseq Top Genes](https://github.com/giderk/giddy/blob/master/content/RNAseq_TopGenes.md)
