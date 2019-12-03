@@ -1,10 +1,15 @@
-# Using group composition to model tamarin  reproductive output
+# Using group composition to model tamarin reproductive output
+
+|Regression Probability Curves|Pairwise Correlation Matrix|
+|---|---|
+|![example](https://gideonerkenswick.files.wordpress.com/2019/12/mulinomial_regression_curves.jpg)|![sample](https://gideonerkenswick.files.wordpress.com/2019/12/pairwise_correlations.jpg)|
 
 ## Overview
 * Convert tamarin individual data into summarized group data
 * Manual correction (account for individuals that were present but not trapped)
 * Data Inspection
 * Statistical Modeling
+* Plotting predicted outcomes
 
 ```rscript
 
@@ -447,7 +452,7 @@ dropterm(mn4,test="Chisq")
 
 lrtest(mn1,mn4) # according to lr test the diff is not significant, so we did not need to include pMp
 ```
-### plotting out the contribution of a given predictor variable ...
+### plotting the predicted contribution of a given variable ...
 ```rscript
 # create a new datafame (the new data set) with the exact same predictor variables as the model.
 # for your variable of interest fill it with a string of data from the minimum to the maximum
