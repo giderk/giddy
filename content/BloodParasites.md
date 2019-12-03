@@ -1,7 +1,7 @@
 # Primate Blood Parasite Dynamics
 PCR and blood smear infection data
 
-|Infections by Age Class|Ind. Changes Infection Status|
+|Ind. Changes Infection Status|Infections by Age Class|
 |---|---|
 |![sample](https://gideonerkenswick.files.wordpress.com/2019/12/bloodparasite_ind.changes.jpg)|![sample](https://gideonerkenswick.files.wordpress.com/2019/12/bloodparasite_ageclass.jpg)|
 
