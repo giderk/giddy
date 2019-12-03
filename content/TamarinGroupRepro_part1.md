@@ -80,7 +80,7 @@ comp2a<-subset(comp2a, comp2a$Species!="CBRU") #remove the callicebus records
 
 write.xlsx(comp2a,"grp.comp.xlsx") # write the data frame to a file 
 ```
-## make the following manual corrections to the file that was just made
+### Make the following manual corrections to the file that was just made
 * before importing grp.comp.xlsx do the following
 * confirm that all 2009 records are removed
 * correct FC row 2010 to have 3 (GRC,GPG,GBR) adults, 2 P_females,
@@ -120,7 +120,7 @@ comp<-comp[comp$Group!="Bees"|comp$year!=2013,]
 # data frame is ready for modeling
 write.xlsx(comp, "comp.xlsx")
 ```
-## Data Inspection
+### Data Inspection
 ```rscript
 comp<-read.xlsx("comp.xlsx",1) #load data
 
@@ -159,7 +159,7 @@ ggplot(comp,aes(x=Juvenile,y=grp.size))+
 hist(comp[comp$Species=="SFUS",]$Juvenile,breaks=5)
 hist(comp[comp$Species=="SIMP",]$Juvenile,breaks=5)
 ```
-## Checking for random structure that needs to be
+### Checking for random structure before modeling data
 
 ```rscript
 
@@ -179,7 +179,7 @@ a<-glmer(formula=Juvenile~grp.size+pFp+pMp+pFs+pMs+pHelp+(1|Stability), data=com
 
 # group and year appear to have 0 affect
 ```
-## Constructing Statistical Models
+### Constructing Statistical Models
 ```rscript
 ### both species together using glm with a poisson distribution
 fitHi<-glm(formula=Juvenile~pFp+pMp+pMs+pFs+grp.size+Species,
