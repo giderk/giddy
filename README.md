@@ -19,9 +19,10 @@ Some of the projects that follow have been completed and published, some are a w
   * [RNAseq Data Inspection and Differential Gene Expression Analysis](https://github.com/giderk/giddy/blob/master/content/RNAseq_Differential_Expression.md)
   * [Functions & DE Gene Interaction Web](https://github.com/giderk/giddy/blob/master/content/GOterm.DEgene_interactions.md)
 
-* Callitrichid cooperative breeding success: a meta-analysis
-
-* Using primate morphology to predict individual breeding status and explain group reproductive success
+* Callitrichid Reproduction
+	* [Cooperative Breeding Meta-analysis]
+	* [Modeling Individual Breeding Status from Reproductive Morphology](https://github.com/giderk/giddy/blob/master/content/DFA_breeding_assignments.md)
+	* [Modeling Group Reproductive Output]
 
 * Blood parasite population dynamics among wild New World primates
 
