@@ -1,9 +1,13 @@
 # Primate Blood Parasite Dynamics
 ### PCR and blood smear infection data
+|Infections by Age Class|Ind. Changes Infection Status|
+|---|---|
+|![sample](https://gideonerkenswick.files.wordpress.com/2019/12/bloodparasite_ind.changes.jpg)|![sample](https://gideonerkenswick.files.wordpress.com/2019/12/bloodparasite_ageclass.jpg)|
 
-####Overview
+#### Overview
 * Import and merge PCR and blood smear parasite data (one record per individual per parasite per year)
-*
+* Create unified individual infection status variable
+* Rearrange data to show individual infection history by parasite
 
 ```rscript
 setwd("~/") # set the working director
