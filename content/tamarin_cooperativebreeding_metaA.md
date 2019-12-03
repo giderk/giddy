@@ -1,6 +1,8 @@
-# Cross-study analysis on how group composition impacts tamarin breeding success
+# Meta-analysis: how group composition impacts tamarin breeding success
 
-A meta-analysis of correlation coefficients
+|Sample Forest Plot|
+|---|
+|![example](https://gideonerkenswick.files.wordpress.com/2019/12/meta.corr_sample.jpg)|
 
 ```rscript
 
