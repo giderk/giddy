@@ -2,7 +2,7 @@
 
 ## Overview
 * Convert tamarin individual data into summarized group data
-* Manually corrections (account for individuals that were present but not trapped)
+* Manual correction (account for individuals that were present but not trapped)
 * Data Inspection
 * Statistical Modeling
 
@@ -181,7 +181,7 @@ a<-glmer(formula=Juvenile~grp.size+pFp+pMp+pFs+pMs+pHelp+(1|Stability), data=com
 ```
 ## Constructing Statistical Models
 ```rscript
-# both species together using glm with a poisson distribution
+### both species together using glm with a poisson distribution
 fitHi<-glm(formula=Juvenile~pFp+pMp+pMs+pFs+grp.size+Species,
           data=comp,family=poisson);fitHi
 
@@ -238,7 +238,8 @@ fitf<-glm(formula=Juvenile ~ grp.size + pFp,
           data=compf,family=poisson);summary(fitf)
 plot(fitf)
 
-#### GLM of just emps
+
+#### GLM of just emps #####
 
 fitHi<-glm(formula=Juvenile~grp.size+pFp+pM+pFs,
            data=compe,family=poisson);fitHi
