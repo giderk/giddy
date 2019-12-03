@@ -22,7 +22,7 @@ Some of the projects that follow have been completed and published, some are a w
 * Callitrichid Reproduction
 	* [Cooperative Breeding Meta-analysis](https://github.com/giderk/giddy/blob/master/content/tamarin_cooperativebreeding_metaA.md)
 	* [Modeling Individual Breeding Status from Reproductive Morphology](https://github.com/giderk/giddy/blob/master/content/DFA_breeding_assignments.md)
-	* [Modeling Group Reproductive Output]
+	* [Modeling Group Reproductive Output](https://github.com/giderk/giddy/blob/master/content/TamarinGroupRepro.md)
 
 * Blood parasite population dynamics among wild New World primates
 
