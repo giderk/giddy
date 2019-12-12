@@ -3,11 +3,13 @@
 |---|
 |![example](https://gideonerkenswick.files.wordpress.com/2019/12/term-gene_edges_example.jpg)|
 ### NEWER VERSION
-I updated this script in some notable ways
+I updated this script in the following ways
 * I wrote a function that gathers all the target GO gene sets into a list
 * In a similar way, I extract GO term names from the Mus.musculus Bioconductor package
 * I removed the ORA enrichment step
 * added simple color and size variation to the the plot labels
+* NOTE: GO:0000000 is not a real ID, it's just a placeholder
+Overall this is faster to run, and takes much less effort to gather target GO gene sets
 
 ```rscript
 ## OVERVIEW ##
