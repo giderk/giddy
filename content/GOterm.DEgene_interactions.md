@@ -68,7 +68,7 @@ names(term2gene)<-c("name","gene")
 
 term2gene$gene[is.na(term2gene$gene)]<-"NA"
 
-DE<-read.csv("Box/RNAseq/esxh/CynthiaExp._finalFigures/Figure1_gsea_iMT.v.iMnoT_iMT.v.ConT/intersection.csv",header=T)[2] # import DE gene list
+DE<-read.csv("path/to/DE/gene/list",header=T)[2] # import DE gene list
 
 # map symbols to gene IDs
 DElist<-as.character(mapIds(Mus.musculus,
