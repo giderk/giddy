@@ -40,8 +40,6 @@ GOsets<-function(x) {
   print(genesets)
 }
 
-# need to include the parent in the above function
-
 setwd("~")  # set working directory
 
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
