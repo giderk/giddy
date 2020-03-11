@@ -2,11 +2,11 @@
 
 This a repository for code I've used over the years to analyze a variety of datasets. R is my 'go to' language for data inspection, manipulation and analysis, but my workflows frequently integrate open-source software that is written in other languages. The majority of my work to date has been for research purposes, searching for ecological or immunological patterns, or metagenomics analyses. My datasets have varied widely from project to project, and I have remained more focused on the result than creating a fully automated workflow. My data processing pipelines consist of discrete blocks of code such as data gathering/import, rearrangment, graphical inspection, clean-up, statistical testing, visualization, and post-hoc testing. When desired, stitching a workflow together into a single command should not be overly difficult.
 
+* Tangent on relational databases
+
 ## Contents
 
 Some of the projects that follow have been completed and published, some are a work in progress, and others are just beginning. As I have time to update these pages, content sections will be converted to links with annotated code and sample outputs, where possible.
-
-* Relational databases
 
 * RNAseq Read Mapping
 	* [Mapping creRecombinase](https://github.com/giderk/giddy/blob/master/content/mapping_creRecombinase.md)
